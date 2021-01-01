@@ -3,7 +3,7 @@ import time
 
 def threadworker(i):
     print(str(i) + " Thread has entered the 'Running' State")
-    time.sleep(3)
+    time.sleep(i)
     print(str(i) + " Thread is terminating")
 
 if __name__ == "__main__":

@@ -35,3 +35,8 @@ if __name__ == "__main__":
     print(time.time() - start)
 
 # GIL 정책 때문에 속도 차이는 거의 나지 않는다.
+
+# threading.active_count() = 현재 실행 중인 모든 스레드 개수
+# threading.current_thread() = 현재 스레드 나타내기
+# threading.main_thread() = 메인 스레드 구하기
+# threading. enumerate() = 모든 스레드 열거하기
